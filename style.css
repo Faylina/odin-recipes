@@ -4,6 +4,12 @@ body {
 }
 
 td {
-    padding: 50px;
+    padding-right: 50px;
+    padding-left: 50px;
     text-align: center;
+}
+
+.content {
+    padding-left: 330px;
+    padding-right: 330px;
 }
