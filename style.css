@@ -2,3 +2,8 @@ body {
     line-height: 1.5;
     font-family: Sora, Geneva, Tahoma, sans-serif;
 }
+
+td {
+    padding: 50px;
+    text-align: center;
+}
