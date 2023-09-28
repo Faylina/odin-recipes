@@ -49,12 +49,19 @@ footer {
 /* main content section */
 
 .content {
-    padding-left: 330px;
-    padding-right: 330px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .content .paragraph {
     padding-top: 40px;
+}
+
+.table-alignment {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .recipe-table {
