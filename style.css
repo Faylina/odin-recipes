@@ -10,7 +10,7 @@ body {
 .main-header {
     padding-left: 330px;
     padding-right: 330px;
-    background-color: rgb(246, 199, 208);
+    background-image: linear-gradient(180deg, rgb(243, 198, 169) 5%, white 30%);
     width: 52.85vw;
     color: rgb(104, 52, 16); 
     font-size: 18px;
@@ -26,6 +26,12 @@ body {
     padding-left: 50px;
     text-align: center;
 }
+
+.header-link {
+    color: rgb(104, 52, 16);
+    text-decoration: none;
+}
+
 
 .recipe-table {
     padding-right: 75px;
