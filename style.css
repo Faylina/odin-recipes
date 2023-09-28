@@ -16,6 +16,9 @@ footer {
     padding-bottom: 20px;
 }
 
+
+/* header */
+
 .main-header {
     padding-left: 330px;
     padding-right: 330px;
@@ -42,10 +45,7 @@ footer {
 }
 
 
-.recipe-table {
-    padding-right: 75px;
-    text-align: center;
-}
+/* main content section */
 
 .content {
     padding-left: 330px;
@@ -56,13 +56,21 @@ footer {
     padding-top: 40px;
 }
 
-.about-table {
-    padding-right: 30px;
+.recipe-table {
+    padding-right: 75px;
+    text-align: center;
 }
 
 .recipe-link {
     color: rgb(196, 111, 21);
 }
+
+.about-table {
+    padding-right: 30px;
+}
+
+
+/* footer */
 
 .footer-copy {
     font-size: x-small;
