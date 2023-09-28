@@ -7,6 +7,15 @@ body {
     width: 98.95vw;
 }
 
+footer {
+    background-color: rgb(243, 198, 169); 
+    margin-bottom: -20px;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 .main-header {
     padding-left: 330px;
     padding-right: 330px;
@@ -53,4 +62,8 @@ body {
 
 .recipe-link {
     color: rgb(196, 111, 21);
+}
+
+.footer-copy {
+    font-size: x-small;
 }
