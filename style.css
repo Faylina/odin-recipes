@@ -28,8 +28,7 @@ body {
 }
 
 .recipe-table {
-    padding-right: 50px;
-    padding-left: 50px;
+    padding-right: 75px;
     text-align: center;
 }
 
@@ -44,4 +43,8 @@ body {
 
 .about-table {
     padding-right: 30px;
+}
+
+.recipe-link {
+    color: rgb(196, 111, 21);
 }
