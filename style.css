@@ -34,7 +34,7 @@ footer {
     width: 100%; 
 }
 
-.header-table {
+.header-table td {
     padding-right: 50px;
     padding-left: 50px;
     text-align: center;
@@ -64,7 +64,7 @@ footer {
     margin-right: auto;
 }
 
-.recipe-table {
+.recipe-table td {
     padding-right: 75px;
     text-align: center;
 }
@@ -73,13 +73,13 @@ footer {
     color: rgb(196, 111, 21);
 }
 
-.about-table {
+.about-table td {
     padding-right: 30px;
 }
 
 /* lists */
 
-.list-padding {
+.list-padding li {
     padding-left: 20px; 
 }
 
