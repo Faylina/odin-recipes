@@ -4,7 +4,9 @@ body {
     font-size: 18px;
     color: rgb(124, 57, 9);   
     margin: 0;
+    padding: 0;
     overflow-x: hidden;
+    box-sizing: border-box;
 }
 
 footer {
@@ -46,10 +48,12 @@ footer {
 }
 
 
+
+
 /* main content section */
 
 .content {
-    width: 60%;
+    max-width: 900px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -58,20 +62,83 @@ footer {
     padding-top: 40px;
 }
 
-.table-alignment {
-    width: 60%;
-    margin-left: auto;
-    margin-right: auto;
+
+/* recipe section */
+
+.recipe-card {
+    background-color: rgb(251, 238, 223);
+    margin-bottom: 30px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, .5);
+    border: 2px solid rgb(196, 111, 21);
 }
 
-.recipe-table td {
-    padding-right: 75px;
-    text-align: center;
+.recipe-card .intro {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 16px;
+    padding: 0 20px;
+    width: 64.5%;
+}
+
+.intro h3 { 
+    margin: 20px 0 0 0; 
+    font-size: 24px;
+}
+
+.intro p {
+    padding-bottom: 30px; 
+}
+
+.recipe-pic {
+    vertical-align: top;
+}
+
+.intro section {
+    display: inline-block;
+    padding: 0;
+}
+
+section ul {
+    padding: 0;
+    margin: 0;
+}
+
+.list-prep {
+    display: inline-block;
+    vertical-align: top;
+    padding-right: 20px;
+}
+
+.list-prep h4 {
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.list-prep p {
+    margin: 0; 
+}
+
+.content button {
+    background-color: rgb(196, 111, 21);
+    border: 1px solid rgb(104, 52, 16);
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, .5);
+    vertical-align: top;
+    padding: 15px 19px;
+    margin-bottom: 20px;
 }
 
 .recipe-link {
-    color: rgb(196, 111, 21);
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
 }
+
+h3 .recipe-link {
+    color: rgb(124, 57, 9)
+}
+
+
+/* about section */
 
 .about-table td {
     padding-right: 30px;
@@ -80,7 +147,7 @@ footer {
 /* lists */
 
 .list-padding li {
-    padding-left: 20px; 
+    padding-left: 20px;
 }
 
 /* footer */
