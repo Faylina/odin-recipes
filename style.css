@@ -144,6 +144,10 @@ h3 .recipe-link {
     padding-right: 30px;
 }
 
+.about-table img {
+    border-radius: 30%;
+}
+
 /* lists */
 
 .list-padding li {
