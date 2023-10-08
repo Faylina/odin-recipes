@@ -16,23 +16,41 @@
 </head>
 
 <body>
-    <header class="header-container">
-        <table class="table-position">
-            <tr class="header-table">
-                <td>
-                    <a href="index.html"><img src="images/wingedcookie.png" alt="chocolate chip cookie with wings" height="50"></a>
-                </td> 
-                <td>
-                    <a class="header-link" href="index.html"><h1 class="header-link">Lan's Sweet Treats</h1></a>
-                </td>
-                <td>
-                    <a href="index.html"><img src="images/wingedcookie.png" alt="chocolate chip cookie with wings" height="50"></a>
-                </td>
-            </tr>
-        </table>
 
+    <!-- Navigation-->
+
+    <nav>
+        <ul class="head-container">
+
+            <li><a href="index.html"><img src="images/wingedcookie.png" alt="chocolate chip cookie with wings" height="50"></a></li>
+            <li> <a href="index.html"><h1 class="header-link">Lan's Sweet Treats</h1></a></li>
+
+            <li>
+                <ul class="nav-container">
+                    <li class="dropdown">
+                        <button class="nav-menu drop"><a class="nav-link drop" href="index.html">Home</a></button>
+                    </li>
+                    <li class="dropdown">
+                        <button class="nav-menu drop">Recipes</button>
+                        <div class="dropdown-content">
+                            <a href="recipes/batmancookies.html">Batman Cookies</a>
+                            <a href="recipes/sconespells.html">Scone Spells</a>
+                            <a href="recipes/rudolphcookies.html">Rudolph Cookies</a>
+                        </div>
+                    </li>
+                </ul>
+            </li>  
+
+        </ul>
+    </nav>
+
+    <!-- Banner-->
+
+    <header class="header-container">
         <a href="index.html"><img class="banner" src="images/cookiesbanner.png" alt="a colorful variety of pastries with icings and sprinkles spread out on a table and on a plate, a cup of cream topped with berries"></a>
     </header>
+
+    <!-- Main Content-->
 
     <div class="content">  
         
@@ -73,8 +91,11 @@
                     </ul>
                 </section>
 
-                <button><a class="recipe-link" href="recipes/batmancookies.html">View Recipe</a></button>
-
+                <div class="dropdown">
+                    <button class="drop">
+                        <a class="recipe-link drop" href="recipes/batmancookies.html">View Recipe</a>
+                    </button>
+                </div>
             </div>
         </div>
 
@@ -105,8 +126,11 @@
                     </ul>
                 </section>
 
-                <button><a class="recipe-link" href="recipes/sconespells.html">View Recipe</a></button>
-
+                <div class="dropdown">
+                    <button class="drop">
+                        <a class="recipe-link drop" href="recipes/sconespells.html">View Recipe</a>
+                    </button>
+                </div>
             </div>
         </div>
 
@@ -136,7 +160,12 @@
                         </li>
                     </ul>
                 </section>
-                <button><a class="recipe-link" href="recipes/rudolphcookies.html">View Recipe</a></button>
+
+                <div class="dropdown">
+                    <button class="drop">
+                        <a class="recipe-link drop" href="recipes/rudolphcookies.html">View Recipe</a>
+                    </button>
+                </div> 
             </div>
         </div>
         
