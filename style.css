@@ -64,7 +64,7 @@ nav ul li {
     font-size: 12px;
     margin: 14px 14px 7px 14px;
     padding: 6px 20px;
-    background-color: rgb(196, 111, 21);
+    background-color: rgb(151, 84, 13);
     color: white;
     border: 1px solid rgb(104, 52, 16);
     box-shadow: 1px 1px 4px rgba(0, 0, 0, .5);
@@ -86,7 +86,7 @@ nav ul li {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: rgba(196, 111, 21, 0.8);
+    background-color: rgba(151, 84, 13, 0.8);
     min-width: 155px;
     box-shadow: 1px 1px 4px rgba(0, 0, 0, .7);
     z-index: 1;
@@ -103,7 +103,7 @@ nav ul li {
 
 .dropdown-content a:hover {
     background-color: white;
-    color: rgb(196, 111, 21);
+    color: rgb(151, 84, 13);
 }
 
 .dropdown:hover .dropdown-content {
@@ -112,7 +112,7 @@ nav ul li {
 
 .dropdown:hover .drop {
     background-color: white;
-    color: rgb(196, 111, 21);
+    color: rgb(151, 84, 13);
 }
 
 /* header */
@@ -197,7 +197,7 @@ section ul {
 }
 
 .content button {
-    background-color: rgb(196, 111, 21);
+    background-color: rgb(151, 84, 13);
     border: 1px solid rgb(104, 52, 16);
     box-shadow: 1px 1px 4px rgba(0, 0, 0, .5);
     vertical-align: top;
@@ -230,6 +230,31 @@ h3 .recipe-link {
 
 .list-padding li {
     padding-left: 20px;
+}
+
+.ingredients-container {
+    display: inline-block;
+    width: 900px;
+}
+
+.ingredients-container ul {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0;
+}
+
+.ingredients-container img {
+    vertical-align: top;
+    float: right;
+}
+
+.ingredients-container .long-list {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.long-list .ingredients-heading {
+    margin-top: 0;
 }
 
 /* footer */
