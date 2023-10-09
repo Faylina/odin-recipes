@@ -257,6 +257,12 @@ h3 .recipe-link {
     margin-top: 0;
 }
 
+/* ending */
+
+.ending-link {
+    color: rgb(124, 57, 9);
+}
+
 /* footer */
 
 .footer-copy {
