@@ -160,6 +160,7 @@ nav ul li {
 .intro h3 { 
     margin: 20px 0 0 0; 
     font-size: 24px;
+    text-transform: uppercase;
 }
 
 .intro p {
@@ -180,7 +181,7 @@ section ul {
     margin: 0;
 }
 
-.list-prep {
+.list-prep li {
     display: inline-block;
     vertical-align: top;
     padding-right: 20px;
