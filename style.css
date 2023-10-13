@@ -67,6 +67,7 @@ nav ul li {
     background-color: rgb(151, 84, 13);
     color: white;
     border: 1px solid rgb(104, 52, 16);
+    border-radius: 4px;
     box-shadow: 1px 1px 4px rgba(0, 0, 0, .5);
 }
 
@@ -89,6 +90,7 @@ nav ul li {
     background-color: rgba(151, 84, 13, 0.8);
     min-width: 155px;
     box-shadow: 1px 1px 4px rgba(0, 0, 0, .7);
+    border-radius: 4px;
     z-index: 1;
 }
 
@@ -147,6 +149,7 @@ nav ul li {
     margin-bottom: 30px;
     box-shadow: 1px 1px 4px rgba(0, 0, 0, .5);
     border: 2px solid rgb(196, 111, 21);
+    border-radius: 4px;
 }
 
 .recipe-card .intro {
@@ -200,6 +203,7 @@ section ul {
     background-color: rgb(151, 84, 13);
     border: 1px solid rgb(104, 52, 16);
     box-shadow: 1px 1px 4px rgba(0, 0, 0, .5);
+    border-radius: 4px;
     vertical-align: top;
     padding: 15px 19px;
     margin-bottom: 20px;
@@ -246,6 +250,7 @@ h3 .recipe-link {
 .ingredients-container img {
     vertical-align: top;
     float: right;
+    border-radius: 4px;
 }
 
 .ingredients-container .long-list {
